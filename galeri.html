@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bisa Ngonten - Dokumentasi Kegiatan Kami</title>
-    <link rel="stylesheet" href="style2.css">
-    <script defer src="./navbar.js"></script></head>
+    <link rel="stylesheet" href="gallery.css">
+    <script defer src="./navbar.js"></script>
+    <script defer src="./gallery.js"></script>
+</head>
 <body>
     <header>
         <div class="navbar">
@@ -31,18 +33,23 @@
         <div>
     </section>
 
-    <section class="page-body">
-        <div class="gallery-container">
-            <div class="gallery-wrapper">
-                <img src="" alt="Card Image" class="card-image">
+    <section class="page-body" id="last-content">
+        <div class="gallery">
+            <div class="gallery-container">
+                <img src="./images/gallery-1.JPG" alt="" class="gallery-item gallery-item-1" data-index="1">
+                <img src="./images/gallery-2.JPG" alt="" class="gallery-item gallery-item-2" data-index="2">
+                <img src="./images/gallery-3.JPG" alt="" class="gallery-item gallery-item-3" data-index="3">
+                <img src="./images/gallery-4.JPG" alt="" class="gallery-item gallery-item-4" data-index="4">
+                <img src="./images/gallery-5.JPG" alt="" class="gallery-item gallery-item-5" data-index="5">
             </div>
+            <div class="gallery-controls"></div>
         </div>
     </section>
 
 
 
     
-<!-- <footer>
+<footer>
     <div class="waves">
         <div class="wave" id="wave1"></div>
         <div class="wave" id="wave2"></div>
@@ -54,7 +61,7 @@
         <img class="logo" src="./images/logo.png" alt="logo">
         <h2>&copy Bisa Ngonten | All Rights Reserved</h2>
     </div>
-</footer> -->
+</footer>
 
 </body>
 </html>
