@@ -259,6 +259,21 @@ section{
     -webkit-filter: drop-shadow(5px 5px 10px black);
 }
 
+
+#instructor-image{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#instructor-image img{
+    border-radius: 25px;
+    -webkit-filter: drop-shadow(5px 5px 10px black);
+    width: 500px;
+    height: auto
+}
+
 .toolbox{
     display: flex;
     justify-content: space-between;
@@ -360,6 +375,27 @@ padding: 1rem 0;
 .toolbox-2 p{
     font-size: 20px;
 }
+
+.toolbox-3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toolbox-3 li {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.toolbox-3 li strong {
+    width: 150px;
+}
+
+.toolbox-3 li span {
+    padding-right: 10px;
+}
+
+
 
 #last-content{
     padding-bottom: 15rem;
